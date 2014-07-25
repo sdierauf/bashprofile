@@ -13,6 +13,7 @@ alias sexy="ssh root@107.170.225.210"
 alias barb="ssh barb.cs.washington.edu"
 alias chr="/usr/bin/open -a '/Applications/Google Chrome.app'"
 alias chro="/usr/bin/open -a '/Applicattions/Google Chrome.app' 'http://'"
+alias pyserve="python -m SimpleHTTPServer"
 
 echo Welcome back, Stefan. You are exceptionally handsome today.
 echo bashrack installed
