@@ -1,4 +1,3 @@
-
 alias mv="mv -i"
 alias a="ssh sdierauf@attu.cs.washington.edu"
 alias tri="ssh sdierauf@tricycle.cs.washington.edu"
@@ -11,7 +10,6 @@ alias ls="ls -G"
 alias ll="ls -alG"
 alias grep="grep --color=auto"
 alias myip="ifconfig | grep -e ' broadcast '"
-alias sexy="ssh root@107.170.225.210"
 alias barb="ssh barb.cs.washington.edu"
 alias chr="/usr/bin/open -a '/Applications/Google Chrome.app'"
 alias chro="/usr/bin/open -a '/Applicattions/Google Chrome.app' 'http://'"
@@ -25,7 +23,8 @@ alias kick="source ~/.bash_profile"
 alias xcodeold="sudo xcode-select -s /Applications/Xcode_6.2.app/Contents/Developer && xcode-select --install"
 alias xcodenew="sudo xcode-select -s /Applications/Xcode.app/Contents/Developer && xcode-select --install"
 alias umn="ssh umnak.cs.washington.edu"
-
+alias newvenv="virtualenv .env && venv"
+alias venv="source .env/bin/activate"
 
 
 
